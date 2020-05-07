@@ -22,9 +22,9 @@ describe('basic UI tests', () => {
 
     const insightUIContainerOptions = {
       volumes: [
-        `${rootPath}/dashcore-node:/insight/node_modules/@dashevo/insight-ui/dashcore-node`,
-        `${rootPath}/po:/insight/node_modules/@dashevo/insight-ui/po`,
-        `${rootPath}/public:/insight/node_modules/@dashevo/insight-ui/public`,
+        `${rootPath}/bitgreen-node:/insight/node_modules/bitgreen/insight-ui/bitgreen-node`,
+        `${rootPath}/po:/insight/node_modules/bitgreen/insight-ui/po`,
+        `${rootPath}/public:/insight/node_modules/bitgreen/insight-ui/public`,
       ],
     };
 
