@@ -18,7 +18,7 @@ var InsightUI = function(options) {
   }
 };
 
-InsightUI.dependencies = ['bitgreen/insight-api'];
+InsightUI.dependencies = ['insight-api'];
 
 inherits(InsightUI, BaseService);
 
