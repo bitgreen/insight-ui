@@ -2,13 +2,13 @@
   "network": "livenet",
   "port": 3001,
   "services": [
-    "dashd",
+    "bitgreend",
     "bitgreen/insight-api",
     "bitgreen/insight-ui",
     "web"
   ],
   "servicesConfig": {
-    "dashd": {
+    "bitgreend": {
       "connect": [{
         "rpchost": "127.0.0.1",
         "rpcport": 9998,
