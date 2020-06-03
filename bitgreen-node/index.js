@@ -7,18 +7,18 @@ var fs = require('fs');
 var InsightUI = function(options) {
   BaseService.call(this, options);
   if (typeof options.apiPrefix !== 'undefined') {
-    this.apiPrefix = options.apiPrefix;
+    this.apiPrefix = 'api';
   } else {
-    this.apiPrefix = 'insight-api';
+    this.apiPrefix = 'api';
   }
   if (typeof options.routePrefix !== 'undefined') {
-    this.routePrefix = options.routePrefix;
+    this.routePrefix = '';
   } else {
-    this.routePrefix = 'insight';
+    this.routePrefix = '';
   }
 };
 
-InsightUI.dependencies = ['bitgreen/insight-api'];
+InsightUI.dependencies = ['insight-api'];
 
 inherits(InsightUI, BaseService);
 

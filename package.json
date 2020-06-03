@@ -43,6 +43,7 @@
     "front-end",
     "dashcore"
   ],
+  "main": "bitgreen-node/index.js",
   "dashcoreNode": "bitgreen-node",
   "scripts": {
     "build": "bower install && grunt compile",
